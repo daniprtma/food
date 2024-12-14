@@ -8,56 +8,51 @@
                         <img src="{{ asset('backend/assets/images/logo-sm.svg') }}" alt="" height="24">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('backend/assets/images/logo-sm.svg') }}" alt="" height="24"> <span class="logo-txt">Client</span>
+                        <img src="{{ asset('backend/assets/images/logo-sm.svg') }}" alt="" height="24"> <span
+                            class="logo-txt">Client</span>
                     </span>
                 </a>
-
                 <a href="index.html" class="logo logo-light">
                     <span class="logo-sm">
                         <img src="{{ asset('backend/assets/images/logo-sm.svg') }}" alt="" height="24">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('backend/assets/images/logo-sm.svg') }}" alt="" height="24"> <span class="logo-txt">Client</span>
+                        <img src="{{ asset('backend/assets/images/logo-sm.svg') }}" alt="" height="24"> <span
+                            class="logo-txt">Client</span>
                     </span>
                 </a>
             </div>
-
             <button type="button" class="btn btn-sm px-3 font-size-16 header-item" id="vertical-menu-btn">
                 <i class="fa fa-fw fa-bars"></i>
             </button>
-
             <!-- App Search-->
             <form class="app-search d-none d-lg-block">
                 <div class="position-relative">
                     <input type="text" class="form-control" placeholder="Search...">
-                    <button class="btn btn-primary" type="button"><i class="bx bx-search-alt align-middle"></i></button>
+                    <button class="btn btn-primary" type="button"><i
+                            class="bx bx-search-alt align-middle"></i></button>
                 </div>
             </form>
         </div>
-
         <div class="d-flex">
-
             <div class="dropdown d-inline-block d-lg-none ms-2">
                 <button type="button" class="btn header-item" id="page-header-search-dropdown"
-                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i data-feather="search" class="icon-lg"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
                     aria-labelledby="page-header-search-dropdown">
-
                     <form class="p-3">
                         <div class="form-group m-0">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search ..." aria-label="Search Result">
-
+                                <input type="text" class="form-control" placeholder="Search ..."
+                                    aria-label="Search Result">
                                 <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-
-
 
             <div class="dropdown d-none d-sm-inline-block">
                 <button type="button" class="btn header-item" id="mode-setting-btn">
@@ -66,11 +61,10 @@
                 </button>
             </div>
 
-
-
             <div class="dropdown d-inline-block">
-                <button type="button" class="btn header-item noti-icon position-relative" id="page-header-notifications-dropdown"
-                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn header-item noti-icon position-relative"
+                    id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                     <i data-feather="bell" class="icon-lg"></i>
                     <span class="badge bg-danger rounded-pill">5</span>
                 </button>
@@ -90,13 +84,15 @@
                         <a href="#!" class="text-reset notification-item">
                             <div class="d-flex">
                                 <div class="flex-shrink-0 me-3">
-                                    <img src="assets/images/users/avatar-3.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                    <img src="assets/images/users/avatar-3.jpg" class="rounded-circle avatar-sm"
+                                        alt="user-pic">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="mb-1">James Lemire</h6>
                                     <div class="font-size-13 text-muted">
                                         <p class="mb-1">It will seem like simplified English.</p>
-                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>1 hour ago</span></p>
+                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>1 hour ago</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +108,8 @@
                                     <h6 class="mb-1">Your order is placed</h6>
                                     <div class="font-size-13 text-muted">
                                         <p class="mb-1">If several languages coalesce the grammar</p>
-                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span></p>
+                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -128,22 +125,24 @@
                                     <h6 class="mb-1">Your item is shipped</h6>
                                     <div class="font-size-13 text-muted">
                                         <p class="mb-1">If several languages coalesce the grammar</p>
-                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span></p>
+                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </a>
-
                         <a href="#!" class="text-reset notification-item">
                             <div class="d-flex">
                                 <div class="flex-shrink-0 me-3">
-                                    <img src="assets/images/users/avatar-6.jpg" class="rounded-circle avatar-sm" alt="user-pic">
+                                    <img src="assets/images/users/avatar-6.jpg" class="rounded-circle avatar-sm"
+                                        alt="user-pic">
                                 </div>
                                 <div class="flex-grow-1">
                                     <h6 class="mb-1">Salena Layfield</h6>
                                     <div class="font-size-13 text-muted">
                                         <p class="mb-1">As a skeptical Cambridge friend of mine occidental.</p>
-                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>1 hour ago</span></p>
+                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>1 hour
+                                                ago</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -156,35 +155,36 @@
                     </div>
                 </div>
             </div>
-
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item right-bar-toggle me-2">
                     <i data-feather="settings" class="icon-lg"></i>
                 </button>
             </div>
-
             @php
-                 $id = Auth::guard('client')->id();
-                 $profileData = App\Models\Client::find($id);
+                $id = Auth::guard('client')->id();
+                $profileData = App\Models\Client::find($id);
             @endphp
-
             <div class="dropdown d-inline-block">
-                <button type="button" class="btn header-item bg-light-subtle border-start border-end" id="page-header-user-dropdown"
-                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="rounded-circle header-profile-user" src="{{ (!empty($profileData->photo)) ? url('upload/client_images/'.$profileData->photo) : url('upload/no_image.jpg') }}"
+                <button type="button" class="btn header-item bg-light-subtle border-start border-end"
+                    id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img class="rounded-circle header-profile-user"
+                        src="{{ !empty($profileData->photo) ? url('upload/client_images/' . $profileData->photo) : url('upload/no_image.jpg') }}"
                         alt="Header Avatar">
                     <span class="d-none d-xl-inline-block ms-1 fw-medium">{{ $profileData->name }}</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <!-- item-->
-                    <a class="dropdown-item" href="{{ route('client.profile') }}"><i class="mdi mdi mdi-face-man font-size-16 align-middle me-1"></i> Profile</a>
-                    <a class="dropdown-item" href="{{ route('client.change.password') }}"><i class="mdi mdi-lock font-size-16 align-middle me-1"></i> Change Password</a>
+                    <a class="dropdown-item" href="{{ route('client.profile') }}"><i
+                            class="mdi mdi mdi-face-man font-size-16 align-middle me-1"></i> Profile</a>
+                    <a class="dropdown-item" href="{{ route('client.change.password') }}"><i
+                            class="mdi mdi-lock font-size-16 align-middle me-1"></i> Change Password</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="{{ route('client.logout') }}"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
+                    <a class="dropdown-item" href="{{ route('client.logout') }}"><i
+                            class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
                 </div>
             </div>
-
         </div>
     </div>
 </header>
