@@ -14,6 +14,7 @@ use App\Http\Controllers\Frontend\CartController;
 use App\Http\Controllers\Frontend\OrderController;
 use App\Http\Controllers\Admin\ManageOrderController;
 use App\Http\Controllers\Admin\ReportController;
+use App\Http\Controllers\Frontend\ReviewController;
 
 
 // Route::get('/', function () {
@@ -151,6 +152,13 @@ Route::middleware('admin')->group(function () {
         Route::post('/admin/search/byyear', 'AminSearchByYear')->name('admin.search.byyear');
     });
 
+    Route::controller(ReviewController::class)->group(function(){
+        Route::get('/admin/pending/review', 'AdminPendingReview')->name('admin.pending.review');
+        Route::get('/admin/approve/review', 'AdminApproveReview')->name('admin.approve.review');
+        Route::get('/reviewchangeStatus', 'ReviewChangeStatus');
+
+    });
+
 
 }); // End Admin Middleware
 
@@ -205,6 +213,10 @@ Route::middleware(['client','status'])->group(function () {
         Route::post('/client/search/byyear', 'ClientSearchByYear')->name('client.search.byyear');
     });
 
+    Route::controller(ReviewController::class)->group(function(){
+        Route::get('/client/all/reviews', 'ClientAllReviews')->name('client.all.reviews');
+
+    });
 
 });
  // End Client Middleware
@@ -232,5 +244,9 @@ Route::controller(OrderController::class)->group(function(){
     Route::post('/cash_order', 'CashOrder')->name('cash_order');
     // Route::get('/admin/order/details/{id}', 'AdminOrderDetails')->name('admin.order.details');
 
+});
+
+Route::controller(ReviewController::class)->group(function(){
+    Route::post('/store/review', 'StoreReview')->name('store.review');
 
 });
